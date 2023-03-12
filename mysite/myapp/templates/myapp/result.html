@@ -5,8 +5,8 @@
     <title>Links</title>
 </head>
 <body>
-  {% for link in link_address %}
-    {{link}}</br>
+  {% for item in data %}
+    {{item.name}}==>{{item.address}}</br>
   {% endfor %}
 </body>
 </html>
